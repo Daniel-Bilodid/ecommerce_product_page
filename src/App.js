@@ -10,7 +10,7 @@ function App() {
      
       <Modal></Modal>
       <Nav></Nav>
-      <Slider></Slider>
+  
       <Product></Product>
       
     </div>

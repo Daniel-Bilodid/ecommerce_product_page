@@ -7,6 +7,7 @@ import imgThumb3 from '../../assets/img/image-product-3-thumbnail.jpg'
 import imgThumb4 from '../../assets/img/image-product-4-thumbnail.jpg'
 import cart from '../../assets/icons/icon-cart.svg'
 import iconDelete from '../../assets/icons/icon-delete.svg'
+import Slider from '../slider/Slider'
 
 import image2 from '../../assets/img/image-product-2.jpg'
 import image3 from '../../assets/img/image-product-3.jpg'
@@ -174,9 +175,11 @@ const Product = () => {
   return (
     
     <div className="product">
+ <div className="slider">
+            <Slider></Slider>
+            </div>
  
- 
-
+       
         <div className="product__wrapper">
             
             <div className="product__img-wrapper">
@@ -200,7 +203,7 @@ const Product = () => {
                 </ul>
 
             </div>
-
+            
             <div className="product__info-wrapper">
 
          

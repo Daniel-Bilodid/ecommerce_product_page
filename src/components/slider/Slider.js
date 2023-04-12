@@ -89,7 +89,7 @@ import './slider.scss'
         const renderDots = () => slides.map((silde, index) => ( 
             // check index
             
-<li 
+            <li 
                 className={ isActive(index) + ' dots' }   
                 key={ index }>
                     <button onClick={ () => setActive(index) }>

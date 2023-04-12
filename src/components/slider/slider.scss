@@ -1,9 +1,10 @@
 
 .slider{
+    visibility: hidden;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    position: relative;
+    position: absolute;
   
     .wrapper {
         height: 100vh;
@@ -22,7 +23,7 @@
         outline: none;
   
         &.prev {
-            left: 0;
+            margin-left: 39px;
     
             &:hover{
                 opacity: .7;
@@ -110,5 +111,40 @@
     .slider__img  {
         width: 680px;
         height: 70vh;
+    }
+   
+}
+
+
+@media screen and (max-width: 760px){ 
+   .slider {
+    visibility: visible;
+    width: 92vw;
+    height: 65vh;
+    margin-left: -50px;
+    position: relative;
+   }
+}
+
+@media screen and (max-width: 426px){ 
+    .slider {
+        width: 105vw;
+        top: -88px;
+        height: 65vh;
+        margin-left: -12px;
+       }
+
+}
+
+@media screen and (max-width: 376px){
+ 
+    .slider {
+        width: 125vw;
+    }
+   .slider .each-slide{
+        width: 120vw;
+    }
+    .slider .slider__img {
+        width: 440px;
     }
 }
