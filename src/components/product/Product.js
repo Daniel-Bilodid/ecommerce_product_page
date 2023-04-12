@@ -80,9 +80,9 @@ const Product = () => {
             </div>
            
             <div className="container__info-wrapper">
-                <h1 className="container__info-title">
+                <div className="container__info-title">
                 Fall Limited Edition Sneakers
-                </h1>
+                </div>
 
                 <div className="container__info-price">
                     <p>
@@ -218,9 +218,9 @@ const Product = () => {
             <div className="product__title">
             Sneaker Company
             </div>
-            <div className="product__subtitle">
+            <h1 className="product__subtitle">
             Fall Limited Edition Sneakers
-            </div>
+            </h1>
             <div className="product__descr">
             These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
             </div>
