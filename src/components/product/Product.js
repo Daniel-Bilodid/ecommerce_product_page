@@ -79,9 +79,9 @@ const Product = () => {
             </div>
            
             <div className="container__info-wrapper">
-                <div className="container__info-title">
+                <h1 className="container__info-title">
                 Fall Limited Edition Sneakers
-                </div>
+                </h1>
 
                 <div className="container__info-price">
                     <p>
