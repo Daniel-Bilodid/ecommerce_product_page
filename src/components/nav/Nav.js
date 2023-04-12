@@ -20,7 +20,7 @@ const Nav = () => {
 
 
   return (
-
+    <nav>
     <div className="nav">
 
 
@@ -68,6 +68,7 @@ const Nav = () => {
         </div>
       
     </div>
+    </nav>
   )
 }
 
