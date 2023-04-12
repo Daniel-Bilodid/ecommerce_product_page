@@ -6,6 +6,7 @@ import imgThumb2 from '../../assets/img/image-product-2-thumbnail.jpg'
 import imgThumb3 from '../../assets/img/image-product-3-thumbnail.jpg'
 import imgThumb4 from '../../assets/img/image-product-4-thumbnail.jpg'
 import cart from '../../assets/icons/icon-cart.svg'
+import cart__white from '../../assets/icons/icon__cart-white.svg'
 import iconDelete from '../../assets/icons/icon-delete.svg'
 import Slider from '../slider/Slider'
 
@@ -246,7 +247,7 @@ const Product = () => {
                 </div>
 
                 <button onClick={change} className='product__btn-add'>
-                    <img src={cart} alt="cart" />
+                    <img src={cart__white} alt="cart" />
                     <span>Add to cart</span>
                 </button>
             </div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import mainImg from '../../assets/img/image-product-1.jpg'
 import image2 from '../../assets/img/image-product-2.jpg'
-import image3 from '../../assets/img/image-product-3.jpg'
-import image4 from '../../assets/img/image-product-4.jpg'
+
 
 
 import imgThumb1 from '../../assets/img/image-product-1-thumbnail.jpg'
